@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>LumaLift</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <img src="icons/icon48.png" alt="" width="26" height="26" />
+        <h1 data-i18n="extName"></h1>
+      </div>
+      <label class="switch" data-i18n-title="toggleTitle">
+        <input type="checkbox" id="enabled" />
+        <span class="track"><span class="thumb"></span></span>
+      </label>
+    </header>
+
+    <main>
+      <div class="presets" id="presets"></div>
+      <div class="sliders" id="sliders"></div>
+    </main>
+
+    <footer>
+      <button id="reset" type="button" data-i18n="reset"></button>
+      <p class="keys" id="keys"></p>
+    </footer>
+
+    <script src="common.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "lumalift",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome extension that makes dark YouTube videos easier to see.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node test/run-test.mjs",
+    "test:youtube": "node test/run-test.mjs --youtube",
+    "icons": "python3 tools/make_icons.py extension/icons",
+    "zip": "cd extension && zip -r -X ../lumalift.zip . -x '.*'"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

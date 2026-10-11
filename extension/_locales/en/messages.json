@@ -1,0 +1,31 @@
+{
+  "extName": { "message": "LumaLift" },
+  "extDescription": {
+    "message": "Make dark YouTube videos easy to see: lift shadows and adjust brightness, contrast and color with a slider."
+  },
+  "cmdBrighter": { "message": "Brighter video" },
+  "cmdDarker": { "message": "Darker video" },
+  "cmdToggle": { "message": "Turn LumaLift on/off" },
+  "toggleTitle": { "message": "On/off" },
+  "presetNormal": { "message": "Normal" },
+  "presetBrighter": { "message": "A bit brighter" },
+  "presetDarkGame": { "message": "Dark game" },
+  "presetVeryDark": { "message": "Very dark" },
+  "sliderBrightness": { "message": "Brightness" },
+  "sliderShadows": { "message": "Lift shadows" },
+  "hintShadows": { "message": "Best for dark games" },
+  "sliderContrast": { "message": "Contrast" },
+  "sliderColor": { "message": "Color" },
+  "reset": { "message": "Back to normal" },
+  "keyBrighter": { "message": "brighter" },
+  "keyDarker": { "message": "darker" },
+  "keyToggle": { "message": "on/off" },
+  "shortcutsChange": { "message": "change" },
+  "shortcutsSetUp": { "message": "Set up shortcuts" },
+  "toastBrightness": {
+    "message": "Brightness $PERCENT$%",
+    "placeholders": { "percent": { "content": "$1" } }
+  },
+  "toastOn": { "message": "LumaLift on" },
+  "toastOff": { "message": "LumaLift off" }
+}

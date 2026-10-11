@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "1.0.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "__MSG_extName__",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["*://*.youtube.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["common.js", "content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "commands": {
+    "brighter": {
+      "suggested_key": { "default": "Alt+Shift+Up" },
+      "description": "__MSG_cmdBrighter__"
+    },
+    "darker": {
+      "suggested_key": { "default": "Alt+Shift+Down" },
+      "description": "__MSG_cmdDarker__"
+    },
+    "toggle": {
+      "suggested_key": { "default": "Alt+Shift+H" },
+      "description": "__MSG_cmdToggle__"
+    }
+  }
+}

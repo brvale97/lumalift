@@ -1,0 +1,31 @@
+{
+  "extName": { "message": "LumaLift" },
+  "extDescription": {
+    "message": "Maak donkere YouTube-video's goed zichtbaar: schaduwen ophalen en helderheid, contrast en kleur met een schuifje."
+  },
+  "cmdBrighter": { "message": "Video lichter" },
+  "cmdDarker": { "message": "Video donkerder" },
+  "cmdToggle": { "message": "LumaLift aan/uit" },
+  "toggleTitle": { "message": "Aan/uit" },
+  "presetNormal": { "message": "Normaal" },
+  "presetBrighter": { "message": "Iets lichter" },
+  "presetDarkGame": { "message": "Donkere game" },
+  "presetVeryDark": { "message": "Heel donker" },
+  "sliderBrightness": { "message": "Helderheid" },
+  "sliderShadows": { "message": "Schaduwen ophalen" },
+  "hintShadows": { "message": "Beste voor donkere games" },
+  "sliderContrast": { "message": "Contrast" },
+  "sliderColor": { "message": "Kleur" },
+  "reset": { "message": "Terug naar normaal" },
+  "keyBrighter": { "message": "lichter" },
+  "keyDarker": { "message": "donkerder" },
+  "keyToggle": { "message": "aan/uit" },
+  "shortcutsChange": { "message": "wijzigen" },
+  "shortcutsSetUp": { "message": "Sneltoetsen instellen" },
+  "toastBrightness": {
+    "message": "Helderheid $PERCENT$%",
+    "placeholders": { "percent": { "content": "$1" } }
+  },
+  "toastOn": { "message": "LumaLift aan" },
+  "toastOff": { "message": "LumaLift uit" }
+}
